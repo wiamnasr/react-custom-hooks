@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import Tasks from "./components/Tasks/Tasks";
 import NewTask from "./components/NewTask/NewTask";
 
+// custom hook
+
 function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
